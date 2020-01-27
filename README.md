@@ -20,7 +20,7 @@ Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3 -m aa:1,bb:2
     * Integer, Double, String, Boolean - Set the default or user provided value to these datatypes.
 
 Implemented following OOPs concepts:<br>
-    * Polymorphism -function overloading and overridding to allow methods that perform similar or closely related functions to be accessed through a common name
+    * Polymorphism -Consoverloading and overridding to allow methods that perform similar or closely related functions to be accessed through a common name
     * Abstraction - Objects of class hide their data behind abstractions and provide functions to operate over them.
     * Modularity - Seperate classes to represent different functionalities and each method implements single functiona 
     * Encapsulation - Relate
@@ -44,13 +44,13 @@ Implemented following OOPs concepts:<br>
 * Run the command given below from the root folder of this repo
 * 'java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java testCreateWithNoSchemaOrArguments'
 
-### Norms of Clean Code Implemented ###
+### Characterstics of Clean Code included in code ###
 * Meaningful Naming- Methods named as verb+noun, class and data members named as noun or noun-phrase
 * Followed naming Convention for class, method, data members.
 * Followed proper indention of function, loops and classes.
 * Each Method serves only one functionality.
 * Functions are not more than 8-9 lines.
-* No function has more than 3 arguments. Most of the functions have 1 or 2 arguments, used 3 arguments only when it is nesecaary
+* No function has more than 3 arguments. Most of the functions have 1 or 2 arguments, used 3 arguments only when it is necessary.
 * Each function validates its arguments by calling a validation function.
 * Each class uses constructors for data member initialization.
 * Each class has a default constructor if parameterized exists even if it is not used.
