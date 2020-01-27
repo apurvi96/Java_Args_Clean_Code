@@ -1,5 +1,4 @@
 package com.cleancoder.args;
-
 import static com.cleancoder.args.ArgsException.ErrorCode.*;
 
 public class ArgsException extends Exception {

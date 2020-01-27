@@ -11,8 +11,7 @@ public class BooleanArgumentMarshaler implements ArgumentMarshaler {
     booleanValue = true;
   }
   public boolean validateValue(ArgumentMarshaler am) {
-      return (am instanceof BooleanArgumentMarshaler);
-        
+      return (am instanceof BooleanArgumentMarshaler);       
   }
   public static boolean getValue(ArgumentMarshaler am) {
     if ((new BooleanArgumentMarshaler()).validateValue(am))

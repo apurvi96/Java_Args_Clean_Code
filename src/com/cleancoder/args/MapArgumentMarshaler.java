@@ -13,7 +13,6 @@ public class MapArgumentMarshaler implements ArgumentMarshaler {
   public MapArgumentMarshaler(){
           map = new HashMap<>();
   }
-  
   private void populateMap(String[] mapEntries) throws ArgsException {
 	  for (String entry : mapEntries) {
         String[] entryComponents = entry.split(":");
@@ -22,7 +21,6 @@ public class MapArgumentMarshaler implements ArgumentMarshaler {
         map.put(entryComponents[0], entryComponents[1]);
 	  }
   }
-  
   public void setValue(Iterator<String> currentArgument) throws ArgsException {
     try {
     	String[] mapEntries = currentArgument.next().split(",");
@@ -31,10 +29,8 @@ public class MapArgumentMarshaler implements ArgumentMarshaler {
       throw new ArgsException(MISSING_MAP);
     }
   }
-
   public boolean validateValue(ArgumentMarshaler am) {
       return (am instanceof MapArgumentMarshaler);
-      
   }
   
   public static Map<String, String> getValue(ArgumentMarshaler am) {

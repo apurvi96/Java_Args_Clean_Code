@@ -19,8 +19,7 @@ public class ArgsMain {
         System.out.printf("%s ", loggingDetails[i]);
       }
     }
-      
-  }
+   }
 
   private static void displaymapDetails(Map<String,String> mapDetails)
   {
@@ -32,7 +31,6 @@ public class ArgsMain {
        System.out.printf("\n");
     }
   }
-
   private static void executeApplication(Args parseData) {
     boolean logging = parseData.getBoolean('f');
     int port = parseData.getInt('n');
@@ -42,9 +40,6 @@ public class ArgsMain {
     Map<String,String> mapDetails = parseData.getMap('m');
     System.out.printf("logging is %s, port:%d, directory:%s, accuracy:%f ",logging, port, directory, accuracy);
     displayLoggingDetails(loggingDetails);
-    displaymapDetails(mapDetails);
-
-    
-      
+    displaymapDetails(mapDetails);     
   }
 }
