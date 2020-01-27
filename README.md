@@ -81,15 +81,16 @@ Implemented following OOPs concepts:<br>
   - Timely
   
 ### Bug Finds And Fixes ##
-* Invalid User Input : Original code allows two valid schema characters to be given as input.<br>
-Example : [-np 5] <br>
+* **Invalid User Input** : Original code allows two valid schema characters to be given as input.<br>
+**Example** : [-np 5] <br>
 Here 'n' is defined to take boolean input in schema and p is defined to take integer value, original code will set the integer value to 5 although it is an invalid input. <br>
 Fix - Implemented a method to check the length of argumentType and return Invalid User Input Exception for wrong input.
-* Empty Key in Map : Original code allow user to give empty key value for Hashmap .<br>
-Example : [-m :val1,key2:val2]<br>
+* **Empty Key in Map** : Original code allow user to give empty key value for Hashmap .<br>
+**Example** : [-m :val1,key2:val2]<br>
 Value 1  does not have key but original code consider empty string as key1. <br>
 Fix - Provided a check of empty string before putting the value into map.
-* Input not starting with '-' : It is an invalid user input as user need to specify the datatype as -char. Original code was not providing a relevant check to invalidate such input.<br>
+* **Input not starting with '-'** : It is an invalid user input as user need to specify the datatype as -char. Original code was not providing a relevant check to invalidate such input.<br>
+**Example** : [p 5] <br>
 Fix - Implemented necessary checks while parsing the input and provided relevant error messages for Invalid User Input.
 
 
