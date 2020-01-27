@@ -1,17 +1,17 @@
-### Features and Code Explanation ###
+### Code Explanation and Features Implemented ###
 User provides the input as command line argument as per the defined Schema.
 Java Args Program extracts, set the value and displays as output.
 
-Schema:
- - char    - Boolean arg.
- - char*   - String arg.
- - char#   - Integer arg.
- - char##  - double arg.
- - char[*] - one element of a string array.
- - char& - 
+    Schema:
+     - char    - Boolean arg.
+     - char*   - String arg.
+     - char#   - Integer arg.
+     - char##  - double arg.
+     - char[*] - one element of a string ar ray.
+     - char&   - give key:value elements of Map
 
-Example schema: (f,s*,n#,a##,p[*])<br>
-Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3
+Example schema: (f,s*,n#,a##,p[*],m&)<br>
+Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3 -m aa:1,bb:2,cc:3
 ### Requirements and execution of code ###
 <b>Install/Update Java</b>
 * sudo add-apt-repository ppa:openjdk-r/ppa
