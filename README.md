@@ -1,3 +1,6 @@
+### Name : Apurvi Mansinghka ###
+### RollNo. : 2019201093 ##
+This is the java version of the Args program described in: http://butunclebob.com/ArticleS.UncleBob.CleanCodeArgs
 ### Code Explanation  ###
 User provides the input as command line argument as per the defined Schema.
 The Program extracts, sets the value of each datatype and displays all the values as output.
@@ -13,17 +16,21 @@ The Program extracts, sets the value of each datatype and displays all the value
 Example schema: (f,s*,n#,a##,p[*],m&)<br>
 Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3 -m aa:1,bb:2,cc:3
 
+
 ### Features ###
 * Parse input and set values for different datatypes
-    * Map data structure - Parses the various key:value pair provided from user and stores the value into a hasmap.
-    * String Array - Set and Display the all the String array elements provided by user.
-    * Integer, Double, String, Boolean - Set the default or user provided value to these datatypes.
+    * Map data structure - [-char key:value] parses the key-values pair provided from by and stores the value into a hasmap.
+    * String Array - [-char stringValue] add provided stringValue to string array .
+    * Integer - [-char intValue] Set the default or user provided value to Integer variable. 
+    * Double -  [-char doubleValue] Set the default or user provided value to double variable. 
+    * String -  [-char stringValue] Set the default or user provided value to string variable.
+    * Boolean - [-char ] sets the boolean variable to true. 
 
 Implemented following OOPs concepts:<br>
-    * Polymorphism -Consoverloading and overridding to allow methods that perform similar or closely related functions to be accessed through a common name
-    * Abstraction - Objects of class hide their data behind abstractions and provide functions to operate over them.
-    * Modularity - Seperate classes to represent different functionalities and each method implements single functiona 
-    * Encapsulation - Relate
+* Polymorphism - constructor overloading in all the classes to intialize the data members.
+* Abstraction - Objects of class hide the data  and provide functions to operate over them.
+* Modularity - Seperate classes to represent different functionalities and each method implements single functiona 
+* Encapsulation - Related data structures and functions encapsulated in a 
     
 
 ### Requirements and execution of code ###
