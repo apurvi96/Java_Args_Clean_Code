@@ -19,7 +19,7 @@ Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3 -m aa:1,bb:2
 
 ### Features ###
 * Parse input and set values for different datatypes
-    * Map data structure - [-char key:value] parses the key-values pair provided from by and stores the value into a hasmap.
+    * Map data structure - [-char key:value] parses the key-value pair provided and stores the value into a hasmap.
     * String Array - [-char stringValue] add provided stringValue to string array .
     * Integer - [-char intValue] Set the default or user provided value to Integer variable. 
     * Double -  [-char doubleValue] Set the default or user provided value to double variable. 
@@ -28,9 +28,9 @@ Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3 -m aa:1,bb:2
 
 Implemented following OOPs concepts:<br>
 * Polymorphism - constructor overloading in all the classes to intialize the data members.
-* Abstraction - Objects of class hide the data  and provide functions to operate over them.
-* Modularity - Seperate classes to represent different functionalities and each method implements single functiona 
-* Encapsulation - Related data structures and functions encapsulated in a 
+* Abstraction - used an Interface class ArgsMarshaller to implement common functions in varios classes.
+* Modularity - Seperate classes to represent different entities and each method implements single functionality. 
+* Encapsulation - Related data structures and functions in single unit.
     
 
 ### Requirements and execution of code ###
@@ -79,5 +79,8 @@ Implemented following OOPs concepts:<br>
   - Repeatable.
   - Self validating
   - Timely
+  
+  ### Bug Finds and Fixes ###
+  
 
   
