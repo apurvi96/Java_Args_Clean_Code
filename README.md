@@ -1,6 +1,6 @@
-### Code Explanation and Features Implemented ###
+### Code Explanation  ###
 User provides the input as command line argument as per the defined Schema.
-Java Args Program extracts, set the value and displays as output.
+The Program extracts, sets the value of each datatype and displays all the values as output.
 
     Schema:
      - char    - Boolean arg.
@@ -12,6 +12,20 @@ Java Args Program extracts, set the value and displays as output.
 
 Example schema: (f,s*,n#,a##,p[*],m&)<br>
 Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3 -m aa:1,bb:2,cc:3
+
+### Features ###
+* Parse input and set values for different datatypes
+    * Map data structure - Parses the various key:value pair provided from user and stores the value into a hasmap.
+    * String Array - Set and Display the all the String array elements provided by user.
+    * Integer, Double, String, Boolean - Set the default or user provided value to these datatypes.
+
+Implemented following OOPs concepts:<br>
+    * Polymorphism -function overloading and overridding to allow methods that perform similar or closely related functions to be accessed through a common name
+    * Abstraction - Objects of class hide their data behind abstractions and provide functions to operate over them.
+    * Modularity - Seperate classes to represent different functionalities and each method implements single functiona 
+    * Encapsulation - Relate
+    
+
 ### Requirements and execution of code ###
 <b>Install/Update Java</b>
 * sudo add-apt-repository ppa:openjdk-r/ppa
