@@ -1,4 +1,4 @@
-###Requirements and execution of code
+###Requirements and execution of code###
 <b>Install/Update Java</b>
 * sudo add-apt-repository ppa:openjdk-r/ppa
 * sudo apt-get update -q 
@@ -16,7 +16,7 @@
 * Run the command given below from the root folder of this repo
 * 'java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java testCreateWithNoSchemaOrArguments'
 
-###Norms of Clean Code Implemented:
+###Norms of Clean Code Implemented###
 * Meaningful Naming- Methods named as verb+noun, class and data members named as noun or noun-phrase
 * Followed naming Convention for class, method, data members.
 * Followed proper indention of function, loops and classes.
