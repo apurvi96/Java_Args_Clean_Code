@@ -80,7 +80,5 @@ Implemented following OOPs concepts:<br>
   - Self validating
   - Timely
   
-  ### Bug Finds and Fixes ###
-  
 
   
