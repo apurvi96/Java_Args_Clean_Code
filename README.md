@@ -1,3 +1,17 @@
+### Features and Code Explanation ###
+User provides the input as command line argument as per the defined Schema.
+Java Args Program extracts, set the value and displays as output.
+
+Schema:
+ - char    - Boolean arg.
+ - char*   - String arg.
+ - char#   - Integer arg.
+ - char##  - double arg.
+ - char[*] - one element of a string array.
+ - char& - 
+
+Example schema: (f,s*,n#,a##,p[*])<br>
+Coresponding command line: "-f -s Bob -n 1 -a 3.2 -p e1 -p e2 -p e3
 ### Requirements and execution of code ###
 <b>Install/Update Java</b>
 * sudo add-apt-repository ppa:openjdk-r/ppa
@@ -39,8 +53,10 @@
 * If else block are one liners mainly a function call.
 * No use of  flag arguments. 
 * Unit Test rules-
-  - Readable.
-  - Fast.
+  -  Fast.
   - Independent.
   - Repeatable.
+  - Self validating
+  - Timely
+
   
